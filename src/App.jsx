@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import './App.css'
-import Search from './functionality/seacrFuctionality/Search'
+import Tooltip from './components/HooksLearning/useLayoutEffectHoo/Tooltip'
+// import Search from './functionality/seacrFuctionality/Search'
 // // import SearchParams from './functionality/searcParameter/SearchParams'
 // const App = () => {
 
@@ -69,7 +70,9 @@ import Search from './functionality/seacrFuctionality/Search'
 const App = () => {
   return (
     <div>
-      <Search/>
+      {/* <Search/> */}
+
+      <Tooltip/>
     </div>
   )
 }

@@ -19,6 +19,9 @@ const Cart = () => {
         setCart(prev => prev.filter(item => item.id != id));
         setCartCount(prev => prev == 0 ? prev : prev - 1);
     }
+
+
+    console.log('Hey Commit')
     return (
         <div>
             <button style={{ position: 'absolute', top: '2%', right: '10%', backgroundColor: '#222' }}>Cart : {cartCount}</button>

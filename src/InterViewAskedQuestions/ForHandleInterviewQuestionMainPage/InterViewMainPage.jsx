@@ -1,4 +1,5 @@
-import Cart from "../ScenarioBasedQuestions/CartFunctionality/Cart"
+import DynamicList from "../DynamicLists/DynamicList "
+// import Cart from "../ScenarioBasedQuestions/CartFunctionality/Cart"
 // import ToggleButton from "../ScenarioBasedQuestions/ToggleButton/ToggleButton"
 
 const InterViewMainPage = () => {
@@ -6,7 +7,9 @@ const InterViewMainPage = () => {
         <div>
             {/* <ToggleButton /> */}
 
-            <Cart/>
+            {/* <Cart/> */}
+
+            <DynamicList/>
         
         </div>
     )

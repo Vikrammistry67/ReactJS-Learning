@@ -2,7 +2,10 @@
 // import Cart from "../ScenarioBasedQuestions/CartFunctionality/Cart"
 // import ToggleButton from "../ScenarioBasedQuestions/ToggleButton/ToggleButton"
 
-import Autosave from "../CondingQuestions/Useffect/Autosave"
+// import Login from "../../Features/Login"
+// import Register from "../../Features/Register"
+import SearchFeature from "../../Features/SearchFeature"
+// import Autosave from "../CondingQues`tions/Useffect/Autosave"
 
 // import ApiRequest from "../CondingQuestions/HooksRelated/UseEffect/ApiRequest"
 
@@ -23,8 +26,16 @@ const InterViewMainPage = () => {
             {/* <ApiRequest/> */}
 
 
-            <Autosave/>
-        
+            {/* <Autosave/> */}
+
+
+            {/* <Login/> */}
+
+
+            {/* <Register/> */}
+
+
+            <SearchFeature />
         </div>
     )
 }
